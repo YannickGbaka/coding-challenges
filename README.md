@@ -1,2 +1,2 @@
 # DSA-LEARNING
-solved DSA problems using python
+this repo contains solved coding problems using python
