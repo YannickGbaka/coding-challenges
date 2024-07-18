@@ -18,8 +18,10 @@ class Stack:
 
     def push(self, data):
         self.stack_lst.append(data)
+        self.size +=1
     
-    def pop(self, data):
+    def pop(self):
         if self.is_empty():
             return None
+        self.size -= 0
         return self.stack_lst.pop()
